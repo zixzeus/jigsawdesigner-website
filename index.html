@@ -1,74 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JigsawDesigner - Privacy Policy</title>
+    <title>JigsawDesigner - 技术支持</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #333; border-bottom: 2px solid #007AFF; padding-bottom: 10px; }
-        h2 { color: #007AFF; margin-top: 30px; }
-        .update-date { color: #666; font-style: italic; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1d4ed8;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #374151;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        .app-info {
+            background: #f3f4f6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .contact-section {
+            background: #ecfdf5;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #6b7280;
+        }
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            margin: 0 15px;
+            padding: 8px 16px;
+            background: #1d4ed8;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            background: #1e40af;
+        }
     </style>
 </head>
 <body>
-    <h1>JigsawDesigner Privacy Policy</h1>
-    <p class="update-date">Last updated: September 24, 2025</p>
+    <div class="container">
+        <div class="nav-links">
+            <a href="#support">技术支持</a>
+            <a href="privacy.html">隐私政策</a>
+        </div>
 
-    <h2>Introduction</h2>
-    <p>JigsawDesigner respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we handle your information when you use our JigsawDesigner application.</p>
+        <h1>JigsawDesigner</h1>
+        <p style="text-align: center; font-size: 18px; color: #6b7280;">专业的拼图设计应用</p>
 
-    <h2>Information We Collect</h2>
-    <p>JigsawDesigner is designed with privacy in mind:</p>
+        <div class="app-info">
+            <h2>关于应用</h2>
+            <p>JigsawDesigner 是一款功能强大的拼图设计应用，支持：</p>
+            <ul>
+                <li>🎨 直观的图形界面设计</li>
+                <li>📐 精确的贝塞尔曲线编辑</li>
+                <li>🧩 智能拼图片段生成</li>
+                <li>📱 跨平台支持 (macOS, iOS, iPad)</li>
+                <li>💾 SVG 格式导入导出</li>
+            </ul>
+        </div>
 
-    <h3>Information We DO NOT Collect:</h3>
-    <ul>
-        <li>Personal identification information</li>
-        <li>Contact information (email, phone numbers)</li>
-        <li>Location data</li>
-        <li>Usage analytics or tracking data</li>
-        <li>Network activity monitoring</li>
-    </ul>
+        <div id="support">
+            <h2>技术支持</h2>
+            <p>如果您在使用 JigsawDesigner 过程中遇到任何问题，请通过以下方式联系我们：</p>
 
-    <h3>Information We May Access:</h3>
-    <ul>
-        <li><strong>Local Files:</strong> The app accesses files you explicitly choose to open or save</li>
-        <li><strong>System Preferences:</strong> Basic system settings for app functionality</li>
-        <li><strong>File System:</strong> Only for saving and opening your jigsaw design projects</li>
-    </ul>
+            <div class="contact-section">
+                <h3>联系方式</h3>
+                <p><strong>📧 邮箱：</strong> <a href="mailto:support@jigsawdesigner.app">support@jigsawdesigner.app</a></p>
+                <p><strong>🐛 问题反馈：</strong> <a href="https://github.com/zixzeus/jigsawdesigner-website/issues" target="_blank">GitHub Issues</a></p>
+                <p><strong>💬 讨论交流：</strong> <a href="https://github.com/zixzeus/jigsawdesigner-website/discussions" target="_blank">GitHub Discussions</a></p>
+            </div>
 
-    <h2>How We Use Your Information</h2>
-    <ul>
-        <li><strong>File Operations:</strong> To save and open your jigsaw design projects</li>
-        <li><strong>App Functionality:</strong> To provide core features like drawing, editing, and exporting</li>
-        <li><strong>Local Storage:</strong> All your designs are stored locally on your device</li>
-    </ul>
+            <h3>常见问题</h3>
+            <details>
+                <summary><strong>应用启动时崩溃怎么办？</strong></summary>
+                <p>请确保您的系统版本满足最低要求（macOS 14.0+），并尝试重启应用。如问题持续，请联系技术支持。</p>
+            </details>
 
-    <h2>Data Storage and Security</h2>
-    <ul>
-        <li>All your designs and data are stored locally on your Mac</li>
-        <li>We do not transmit your personal data to external servers</li>
-        <li>No cloud storage or remote backup is performed by the app</li>
-        <li>Your files remain under your complete control</li>
-    </ul>
+            <details>
+                <summary><strong>如何导入 SVG 文件？</strong></summary>
+                <p>在应用中选择"文件" > "导入 SVG"，选择您的 SVG 文件即可导入到画布中。</p>
+            </details>
 
-    <h2>Third-Party Services</h2>
-    <p>JigsawDesigner does not integrate with third-party analytics, advertising, or data collection services.</p>
+            <details>
+                <summary><strong>支持哪些文件格式？</strong></summary>
+                <p>目前支持 SVG 格式的导入和导出，以及应用专有的项目文件格式。</p>
+            </details>
+        </div>
 
-    <h2>Children's Privacy</h2>
-    <p>Our app does not knowingly collect any information from children under 13 years of age.</p>
+        <h2>系统要求</h2>
+        <ul>
+            <li><strong>macOS:</strong> macOS 14.0 或更高版本</li>
+            <li><strong>iOS:</strong> iOS 17.0 或更高版本</li>
+            <li><strong>iPadOS:</strong> iPadOS 17.0 或更高版本</li>
+        </ul>
 
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <ul>
-        <li>Email: privacy@jigsawdesigner.com</li>
-        <li>Website: https://www.jigsawdesigner.com/privacy</li>
-    </ul>
-
-    <hr>
-    <p><small>© 2025 Xin Zou. All rights reserved.</small></p>
+        <div class="footer">
+            <p>&copy; 2025 Xin Zou. 保留所有权利。</p>
+            <p><a href="privacy.html">隐私政策</a> | <a href="mailto:support@jigsawdesigner.app">联系我们</a></p>
+        </div>
+    </div>
 </body>
 </html>
